@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Canteen - Admin Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Canteen Admin Panel</h1>
+    <nav>
+      <a href="index.html">Logout</a>
+    </nav>
+  </header>
+
+  <section class="admin-panel">
+    <h2>Manage Menu</h2>
+    <table>
+      <tr>
+        <th>Item Name</th>
+        <th>Price</th>
+        <th>Available</th>
+        <th>Action</th>
+      </tr>
+      <tr>
+        <td>Veg Burger</td>
+        <td>₹50</td>
+        <td>Yes</td>
+        <td><button>Edit</button> <button>Delete</button></td>
+      </tr>
+      <tr>
+        <td>Tea</td>
+        <td>₹10</td>
+        <td>No</td>
+        <td><button>Edit</button> <button>Delete</button></td>
+      </tr>
+    </table>
+
+    <button class="add-item">+ Add New Item</button>
+
+    <h2>Recent Orders</h2>
+    <table>
+      <tr>
+        <th>Order ID</th>
+        <th>User</th>
+        <th>Total</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>ORD1021</td>
+        <td>Alok</td>
+        <td>₹220</td>
+        <td><span class="status pending">Pending</span></td>
+      </tr>
+      <tr>
+        <td>ORD1020</td>
+        <td>Riya</td>
+        <td>₹150</td>
+        <td><span class="status ready">Ready</span></td>
+      </tr>
+    </table>
+  </section>
+
+  <footer>
+    <p>Smart Canteen Admin Dashboard</p>
+  </footer>
+</body>
+</html>
